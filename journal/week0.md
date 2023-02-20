@@ -39,6 +39,7 @@
     - Vallidated git add, commit, push to main - all working as expected
     - AWS CLI is prior installed on local machine, validated it's working
     - Setup AWS Configure on local machine
+    - Setup auto-prompt partial in ~/.aws/config by adding "cli_auto_prompt = on-partial"
 
 - [LucidChart Public View Link](https://lucid.app/lucidchart/59c3ab65-d80b-4c9a-9265-6b0fcb638e8d/edit?viewport_loc=-100%2C261%2C2264%2C1196%2CMxKxoGtxBBi0&invitationId=inv_c1430647-594e-472a-b495-85048a89cf3d)
 

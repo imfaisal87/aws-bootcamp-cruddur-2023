@@ -32,11 +32,13 @@
     - Setup MFA for new user account
     - Create Access Key for CLI access
     - AWS CLI instalation on gitpod vscode online terminal
+    - Setup environment variable for AWS CLI access such as access id, secret key, region
     - While pushing code got error of email expose as my github email is set to private and wanted to prefer the same way therefire did a setup of VSCode on local machine
     - git clone repo locally
     - Authenticated local VScode with github
     - Vallidated git add, commit, push to main - all working as expected
     - AWS CLI is prior installed on local machine, validated it's working
+    - Setup AWS Configure on local machine
 
 - [LucidChart Public View Link](https://lucid.app/lucidchart/59c3ab65-d80b-4c9a-9265-6b0fcb638e8d/edit?viewport_loc=-100%2C261%2C2264%2C1196%2CMxKxoGtxBBi0&invitationId=inv_c1430647-594e-472a-b495-85048a89cf3d)
 

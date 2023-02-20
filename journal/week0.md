@@ -1,6 +1,6 @@
 # Week 0 — Billing and Architecture
 
-## Prior to starting Journal Week0
+## Prior to starting Week0
 - Read the bootcamp outline document
 - Setup a new AWS Account
 - Template github repo in personal github

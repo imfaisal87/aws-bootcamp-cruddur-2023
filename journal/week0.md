@@ -29,4 +29,9 @@ Homework Part:
 -- Setup MFA for new user account
 -- Create Access Key for CLI access
 -- AWS CLI instalation on gitpod vscode online terminal
--- while pushing code got error of email expose as my github email is set to private so setup VSCode on local machine
+-- While pushing code got error of email expose as my github email is set to private and wanted to prefer the same way therefire did a setup of VSCode on local machine
+-- git clone repo locally
+-- Authenticated local VScode with github
+-- Vallidated git add, commit, push to main - all working as expected
+-- AWS CLI is prior installed on local machine, validated it's working
+

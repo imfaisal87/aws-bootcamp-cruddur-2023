@@ -26,6 +26,7 @@
     - ![AWS Budget Alerts](../images/Budget-Alerts.png)
 - Watched Ashish Security Consideration
     - Setup MFA on root account
+    - ![MFA-ROOT](../images/root-secured.png)
     - Setup Organization
 - Watched Andrew Week 0 - Generate Credentials, AWS CLI, Budget and Billing Alarm via CLI
     - Created a user account

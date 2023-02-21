@@ -55,11 +55,11 @@
 
 ![Logical Diagram](../images/Cruddur%20-%20Conceptual%20Diagram%20-%20Logical%20Architectual%20Diagram.png)
 
-### Watched Week 0 - Homework Idea (Well Architected Tool)
-### Watched FREE AWS Cloud Project Bootcamp - Homework Grading Considerations
-### Updating Your Journal in Github
-### Scrubing Github History of Sensitive Data
-- Eradicated content in image
+#### Watched Week 0 - Homework Idea (Well Architected Tool)
+#### Watched FREE AWS Cloud Project Bootcamp - Homework Grading Considerations
+#### Updating Your Journal in Github
+#### Scrubing Github History of Sensitive Data
+    - Eradicated content in image
 
 
 ## Homework Challenges

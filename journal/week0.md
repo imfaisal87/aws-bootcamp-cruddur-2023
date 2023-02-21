@@ -57,8 +57,8 @@
 
 #### Watched Week 0 - Homework Idea (Well Architected Tool)
 #### Watched FREE AWS Cloud Project Bootcamp - Homework Grading Considerations
-#### Updating Your Journal in Github
-#### Scrubing Github History of Sensitive Data
+#### Watched Updating Your Journal in Github
+#### Watched Scrubing Github History of Sensitive Data
     - Eradicated content in image
 
 

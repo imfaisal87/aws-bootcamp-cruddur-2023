@@ -13,4 +13,8 @@ TO ADD URL >>>>
 - Resolved it by running docker for mac which started docker daemon as it was unused for a very long time and updated it
 - Tried to build docker container but faced with another error "failed to solve with frontend dockerfile.v0: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount1677032260/Dockerfile: no such file or directory"
 - I realized it was unable to find the Dockerfile whereas I had it created, then based on review it is case sensitive file and I had a capital "F" in file word of it.
-- Resolved and tried to build docker again and this them it was a SUCCESS
+- Resolved and tried to build docker again and this time it was a SUCCESS
+- Figured out the Dockerfile case sensitive issue was not detected as change by git therefore renamed it and updated and renamed it back then uploaded it again.
+- Build docker run without variables set, and got ERROR as expected
+![Error](../images/docker-run-no-env-set-error.png)
+- 

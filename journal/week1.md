@@ -9,4 +9,8 @@ TO ADD URL >>>>
 - Set env vars to * from FRONTEND_URL and BACKEND_URL
 - Started the application on local system
 - I was able to see json data with appended url /api/activities/home on localhost URL
-- 
+- Tried to build docker container but faced an error "ERROR: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?"
+- Resolved it by running docker for mac which started docker daemon as it was unused for a very long time and updated it
+- Tried to build docker container but faced with another error "failed to solve with frontend dockerfile.v0: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount1677032260/Dockerfile: no such file or directory"
+- I realized it was unable to find the Dockerfile whereas I had it created, then based on review it is case sensitive file and I had a capital "F" in file word of it.
+- Resolved and tried to build docker again and this them it was a SUCCESS

@@ -17,4 +17,11 @@ TO ADD URL >>>>
 - Figured out the Dockerfile case sensitive issue was not detected as change by git therefore renamed it and updated and renamed it back then uploaded it again.
 - Build docker run without variables set, and got ERROR as expected
 ![Error](../images/docker-run-no-env-set-error.png)
-- 
+- I was able to run the newly build container running
+```docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask```
+![Container-Running](../images/Container-running.png)
+- Created a Dockerfile in frontend director and copied the required content in it.
+- Created another container image by running docker build -t frontend-reach-js ./frontend-reach-js from project home director
+![docker-images](../images/docker-images.png)
+- Ran frontend container and was a success
+![frontend-app](../images/frontend-app.png)

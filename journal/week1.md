@@ -1,7 +1,7 @@
 # Week 1 — App Containerization
 
 ## Attended Week0 Live broadcast offline
-TO ADD URL >>>>
+TO ADD URL https://www.youtube.com/watch?v=zJnNe5Nv4tE
 
 ## Activities performed part of Live broadcast
 - Create a docker file in backend-flash
@@ -19,9 +19,20 @@ TO ADD URL >>>>
 ![Error](../images/docker-run-no-env-set-error.png)
 - I was able to run the newly build container running
 ```docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask```
+-
 ![Container-Running](../images/Container-running.png)
 - Created a Dockerfile in frontend director and copied the required content in it.
 - Created another container image by running docker build -t frontend-reach-js ./frontend-reach-js from project home director
 ![docker-images](../images/docker-images.png)
 - Ran frontend container and was a success
 ![frontend-app](../images/frontend-app.png)
+- Created a docker-compose file, copied the required content to build and run multiple containers
+- Adjusted the urls to use 
+```yaml
+      #FRONTEND_URL: "https://3000-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+      FRONTEND_URL: "http://127.0.0.1:3000"
+      #BACKEND_URL: "https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+      BACKEND_URL: "http://127.0.0.1:4567"```
+
+## RESULT:
+![Successful-docker-compose](../images/successful-docker-compose.png)

@@ -18,7 +18,9 @@ https://www.youtube.com/watch?v=zJnNe5Nv4tE
 - Build docker run without variables set, and got ERROR as expected
 ![Error](../images/docker-run-no-env-set-error.png)
 - I was able to run the newly build container running
-```docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask```
+```
+docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
+```
 
 ![Container-Running](../images/Container-running.png)
 - Created a Dockerfile in frontend director and copied the required content in it.
@@ -27,7 +29,7 @@ https://www.youtube.com/watch?v=zJnNe5Nv4tE
 - Ran frontend container and was a success
 ![frontend-app](../images/frontend-app.png)
 - Created a docker-compose file, copied the required content to build and run multiple containers
-- Adjusted the urls to use 
+- Adjusted the urls to use localhost as using VScode locally
 ```
 #FRONTEND_URL: "https://3000-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
 FRONTEND_URL: "http://127.0.0.1:3000"
